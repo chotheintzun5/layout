@@ -1,0 +1,101 @@
+.navbar{
+        background: #FBFACD;
+            height: 10vh;
+        }
+
+       .banner, .card-section {
+            background: #DEBACE;
+        height: 50vh;
+            }
+        .card-section {
+        background: #BA94D1;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+    }
+        .child1{
+            width: 30%;
+            height: 40vh;
+        border: 1px solid white;
+         }
+        .channel{
+            height: 100vh;
+        background: #7F669D;
+        display: flex;
+    }
+        .btngp{
+            width: 20%;
+        border: 1px solid black;
+         }
+        .viewsection{
+         width: 80%;
+        border: 1px solid black;
+         }
+    .btn{
+        width:50%;
+        height: 5vh;
+    }
+    .ytbanner{
+    }
+    .btnmg{
+       margin-left:35%;
+    }
+        .btn2{ width:10%;
+        height: 5vh;
+    }
+        .img{  
+            border: 1px white solid;
+        width: 70%;
+        height: 30vh;
+        margin-left: 15%;
+    }
+        /*.ytrecommend{ justify-content: space-around; }*/
+        .vd{
+            border: 1px white solid;
+            height: 20vh;
+            width: 18%;
+        float: left;
+        margin-left: 1.5%;
+         }
+        #tt{
+            display: flex;
+            clear: left;
+        justify-content: space-around;
+         }
+        .footer{
+         background:#FBFACD;
+        display: flex;
+        height: 65vh;
+        justify-content: space-around;
+         }
+    .socialmedia, .contact, .map {
+        width: 30%;
+         }
+    
+    #nav ul li{
+        float: left;
+        list-style:none; /*to remove bullet style*/
+        margin: 0 150px; /*top&bottom left&right*/
+    }
+    #nav ul li a{ 
+        color:#7F669D;
+        opacity:0.5; /*lowest 0, highest 1*/
+        text-decoration: none;
+         }
+    /*psuedo element (Element:hover)*/
+    #nav ul li a:hover{
+        opacity: 1;
+    cursor:pointer;
+    /*text-shadow: x y blur color;*/
+    text-shadow: 2px 2px 4px #7F669D;
+}
+body {
+    margin:0;
+}
+#nav{
+    overflow: hidden;
+     }
+     div.banner{
+        background-image:url('antihero.jpg');
+        background-size:100% 100%;/*x y*/
+     }
